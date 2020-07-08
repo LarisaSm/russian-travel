@@ -37,7 +37,7 @@ text-decoration: none;
 
 .lead {
     width: 928px;
-    margin: 0 auto;
+    margin: 0 auto 92px auto;
 }
 
 .lead__title {
@@ -85,4 +85,40 @@ text-decoration: none;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-top: 8px;
+}
+
+.intro {
+    margin-left: calc((100% - 928px)/2);
+    width: 690px;
+    height: 428px;
+}
+
+.intro__title {
+    font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+margin-bottom: 40px;
+}
+
+.intro__text {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 32px;
+}
+
+.intro__list {
+    font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+}
+
+.intro__number {
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
 }
