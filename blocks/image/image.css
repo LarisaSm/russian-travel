@@ -1,0 +1,6 @@
+.image {
+  display: none;
+  justify-content: start;
+  align-items: flex-start;
+  width: 100%;
+}

@@ -10,6 +10,9 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="images/header-logo.svg" alt="Россия">
+    <nav class="header__menu">
+      <a href="#" class="header__about">О проекте</a>
+    </nav>
     <div class="header__nav">
      <a href="#" class="header__lang-link header__lang-link_type_active">Ru</a>
      <a href="#" class="header__lang-link">En</a>
@@ -133,5 +136,23 @@
     </nav>
     <p class="footer__copyright">&copy; 2020. Смирнова Лариса</p>
   </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <h2 class="popup__title">О проекте</h2>
+      <p class="popup__about">Путешествия по России это студенческий проект третьего спринта программы веб-разработчик. Его задача — отточить навык адаптивной вёрстки и работы с Фигмой. А этот попап — кейс для отработки практики 4-го спринта.</p>
+      <a href=# class="popup__link">Показать иллюстрацию</a>
+      <div class="image popup__image">
+        <img src="images/popup-img.jpg" class="image__img" alt="Девушка в поле">
+        <button type="button" class="image__close"></button>
+      </div>
+      <button type="button" class="popup__close"></button>
+    </div>
+  </div>
+<script src="scripts/index.js"></script>
+
 </body>
+
+
+
 </html>

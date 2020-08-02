@@ -1,0 +1,6 @@
+.image__img {
+  margin-right: 15px;
+  object-fit: contain;
+  overflow: hidden;
+  object-position: top;
+}
