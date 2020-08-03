@@ -4,6 +4,18 @@ font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 text-align: right;
-text-decoration-line: underline;
+text-decoration-line: none;
 color: #FFFFFF;
 }
+
+.header__about:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 565px){
+  .header__about {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+

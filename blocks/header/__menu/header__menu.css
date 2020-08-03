@@ -2,3 +2,18 @@
   margin-left: auto;
   margin-right: 70px;
 }
+
+
+@media screen and (max-width: 565px){
+  .header__menu {
+  margin-right: 30px;
+}
+}
+
+@media screen and (max-width: 370px){
+  .header__menu {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}

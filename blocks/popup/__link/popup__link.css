@@ -7,4 +7,10 @@ text-decoration-line: underline;
 color: #000000;
 margin-top: 28px;
 max-width: 690px;
+transition: opacity .7s ease;
+}
+
+.popup__link:hover {
+  opacity: .8;
+  cursor: pointer;
 }

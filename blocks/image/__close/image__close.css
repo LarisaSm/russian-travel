@@ -4,7 +4,7 @@
     background: none;
     border: none;
     outline: none;
-    transition: opacity 1s linear;
+    transition: opacity .7s ease;
 }
 
 .image__close:before {
@@ -29,6 +29,6 @@
 }
 
 .image__close:hover {
-  opacity: .7;
+  opacity: .8;
   cursor: pointer;
 }

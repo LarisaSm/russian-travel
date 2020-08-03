@@ -7,7 +7,7 @@
   background: none;
   border: none;
   outline: none;
-  transition: opacity 1s linear;
+  transition: opacity .7s ease;
 }
 
 .popup__close:before {
@@ -34,6 +34,6 @@ left: -3px;
 }
 
 .popup__close:hover {
-  opacity: .7;
+  opacity: .8;
   cursor: pointer;
 }
